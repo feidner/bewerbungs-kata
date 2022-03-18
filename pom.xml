@@ -17,6 +17,7 @@
         <version.mockito>4.3.1</version.mockito>
         <version.spring>2.6.4</version.spring>
         <version.ulc>9.0.2</version.ulc>
+        <version.jemmy>2.2.7.5</version.jemmy>
     </properties>
 
     <dependencies>
@@ -55,7 +56,12 @@
             <version>${version.mockito}</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.netbeans</groupId>
+            <artifactId>jemmy</artifactId>
+            <version>${version.jemmy}</version>
+            <scope>test</scope>
+        </dependency>
 
         <!-- Junit5 -->
         <dependency>
